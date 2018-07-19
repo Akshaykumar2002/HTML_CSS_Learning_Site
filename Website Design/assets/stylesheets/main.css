@@ -54,7 +54,7 @@ Custom Styles
 */
 
 body {
-	background-color: #293f50;
+	background-color: #1f1f1f;
 	color:#888;
 	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -203,7 +203,7 @@ Rows
 */
 
 .row {
-	background: #fff;
+	background: #2f2f2f;
 	padding: 66px 0 44px 0;
 }
 
@@ -232,7 +232,7 @@ Rows
 	float: left;
 	font-size: 48px;
 	line-height: 44px;
-	font-weight: 100;
+	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: .5px;
 }
@@ -395,4 +395,68 @@ Venue
 
 .venue-map {
 	height: 264px;
+}
+
+
+/*
+==================================
+Register
+==================================
+*/
+
+.why-attend {
+	list-style: square;
+	margin: 0 0 22px 30px;
+}
+
+form {
+	margin-bottom: 22px;
+}
+
+input,
+select,
+textarea {
+	font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.register-group label{
+	color: #648880;
+	cursor: pointer;
+	font-weight: 400;
+}
+
+.register-group input,
+.register-group select,
+.register-group textarea {
+	border: 1px solid #c6c9cc;
+	border-radius: 5px;
+	color: #888;
+	display: block;
+	margin: 5px 0 27px 0;
+	padding: 5px 5px;
+}
+
+.register-group input,
+.register-group textarea {
+	width: 100%;
+}
+
+.register-group select {
+	height: 34px;
+	width: 60px;
+}
+
+.register-group textarea {
+	height: 78px;
+}
+
+.btn-default {
+	border: 0;
+	background: #648880;
+	padding: 11px 30px;
+	font-size: 14px;
+}
+
+.btn-default:hover {
+	background: #77a198;
 }
